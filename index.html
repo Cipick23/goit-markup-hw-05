@@ -68,8 +68,11 @@
 
         <section class="logo-section team-image">
             <h3 class="about-logo">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h3>
-            <button class="button-service" type="button">
-            <span class="request-button">Request our service</span></button>
+            <button
+                data-modal-open 
+                class="button-service" type="button">
+                <span class="request-button">Request our service</span>
+            </button>
         </section>
 
         <!-- second section -->
@@ -414,6 +417,15 @@
             </div>
         </section>
     </footer>
+
+    <!-- modal section -->
+    <div class="modal is-hidden" data-modal>
+        <div class="modal-content">
+            <button class="close-btn" data-modal-close>&times;</button>
+            continutul modalului
+        </div>
+    </div>
+
     <script src="./js/modal.js"></script>
 </body>
 </html>
