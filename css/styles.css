@@ -717,13 +717,13 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
-    width: 528px;
+    width: 527px;
     height: 581px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;    
+    border-radius: 4px;
 }
 
 .modal-content {
