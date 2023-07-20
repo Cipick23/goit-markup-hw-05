@@ -1,4 +1,4 @@
-*{
+* {
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -98,15 +98,6 @@ ul {
     height: 82px;
 }
 
-.studio-link {
-    color: #2196F3;
-    width: 42px;
-    /* height: 16px; */
-    flex-shrink: 0;
-    line-height: 16px;
-    margin: 0px 50px 0px 0px;
-}
-
 .portofolio-link {
     color: #212121;
     line-height: 16px;
@@ -120,29 +111,50 @@ ul {
     line-height: 16px;
 }
 
-.studio-link > svg {
-    width: 42px;
+.portofolio-link >svg {
+    width: 58px;
     height: 4px;
-    flex-shrink: 0;
     border-radius: 2px;
     margin-top: 28px;
     fill: #2196F3;
-    opacity: 1;
-}
-
-.content-section .studio-link:hover,
-.content-section .studio-link:focus {
-    fill: #2196F3;
-    background-color: #fff;
     visibility: hidden;
 }
 
+.contacts-link > svg {
+    width: 59px;
+    height: 4px;
+    border-radius: 2px;
+    margin-top: 28px;
+    fill: #2196F3;
+}
+
+.studio {
+    color: #212121;
+}
+
+.studio > svg {
+    width: 42px;
+    height: 4px;
+    margin-top: 28px;
+    border-radius: 2px;
+    fill: #2196F3;
+}
+
+.icon-is-hidden {
+    visibility: hidden;
+}
+
+.content-section .studio > svg::after {
+    background-image: url("/images/icons.svg#icon-hover");
+}
+
+.content-section .studio:hover,
+.content-section .studio:focus,
 .content-section .contacts-link:hover,
 .content-section .contacts-link:focus,
 .content-section .portofolio-link:focus,
 .content-section .portofolio-link:hover {
     color: #2196F3;
-    background-color: #fff;
 }
 
 /* email phone  */
@@ -402,6 +414,28 @@ ul {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
+}
+
+.image-layout {
+    display: flex;
+    position: relative;
+    z-index: 0;       
+}
+
+.image-layer {
+    
+}
+
+.display-one {
+    bottom: 1420px;
+    right: 1015px;
+}
+
+.font-image {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    flex-shrink: 0;
 }
 
 /*  section 3 */

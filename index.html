@@ -28,17 +28,26 @@
             <nav class="box">
                 <ul class="content-section">
                     <li>
-                        <a class="studio-link" href="studio.html" aria-label="email">
+                        <a class="studio" href="studio.html" aria-label="email">
                             Studio
-                            <svg>
-                                <use href="./images/icons.svg#icon-hover"></use>
+                            <svg class="icon-is-hidden">
+                                <use href="/images/icons.svg#icon-hover"></use>
                             </svg></a>
                     </li>
                     <li>
-                        <a class="portofolio-link" href="portfolio.html">Portofolio</a>
+                        <a class="portofolio-link" href="portfolio.html" aria-label="email">
+                            Portofolio
+                            <svg>
+                                <use href="/images/icons.svg#icon-hover"></use>
+                            </svg></a>
+
                     </li>
                     <li>
-                        <a class="contacts-link" href="contacts.html">Contacts</a>
+                        <a class="contacts-link" href="contacts.html" aria-label="email">
+                            Contacts
+                            <svg>
+                                <use href="/images/icons.svg#icon-hover"></use>
+                            </svg></a>
                     </li>
                 </ul>
             </nav>
@@ -177,8 +186,11 @@
                     <h2>What we do</h2>
                     <ul>
                         <li class="image-layout">
-                            <img src="images/monitor-sketch-img-1.jpg" alt="monitor and sketch" width="294"
+                            <div class="image-layer">
+                                <h6 class="font-image">DESKTOP APPS</h6>
+                                <img src="images/monitor-sketch-img-1.jpg" alt="monitor and sketch" width="294"
                                 height="370">
+                            </div>
                         </li>
                         <li class="image-layout">
                             <img src="images/smartphone-img-2.jpg" alt="smartphone and hand" height="370" width="294">
