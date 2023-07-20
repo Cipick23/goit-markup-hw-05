@@ -717,8 +717,8 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
-    width: 527px;
-    height: 581px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -731,6 +731,7 @@ ul {
     background-color: #fff;
     width: 50%;
     position: relative;
+    width: 527px;
     height: 581px;
 }
 
