@@ -227,6 +227,56 @@ ul {
 	align-content: space-evenly;
 }
 
+.image-container {
+    position: relative;
+    width: 50%;
+}
+
+.image-animation {
+    display: block;
+    width: 100%;
+    height: auto;
+    width: 370px;
+    height: 294px;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    width: 370px;
+    height: 0;
+    transition: .5s ease;
+}
+
+.box-images > ul > li > div:hover .image-overlay {
+    height: 100%;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: start;
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.54px;
+    width: 322px;
+    height: 140px;
+    
+}
+
 .box-images > ul > li {
     display: flex;
     flex-direction: column;
