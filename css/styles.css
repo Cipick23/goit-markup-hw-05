@@ -431,6 +431,10 @@ ul {
     color: #fff;
     width: 370px;
     height: 70px;
+}
+
+.image-layer > h6 {
+    color: #FFF;
     text-align: center;
     font-family: Roboto;
     font-size: 14px;
