@@ -250,9 +250,6 @@ ul {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-}
-
-.team-image {
     background-image: url(/images/team-image.jpg);
     background-color: #C4C4C4;
     background-size: 1572px 600px;
