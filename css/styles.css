@@ -19,11 +19,16 @@
     --background-hover-color-footer: #2196F3;
     --social-link-color-hover: #2196F3;
     --icon-color-header: #757575;
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a:-webkit-any-link {
     cursor: pointer;
     text-decoration: none;
+}
+
+a {
+    transition: color var(--transition);
 }
 
 ul {
@@ -172,6 +177,7 @@ ul {
 .content-section .portofolio-link:focus,
 .content-section .portofolio-link:hover {
     color: #2196F3;
+    transition: var(--transition);
 }
 
 /* email phone  */
@@ -222,11 +228,13 @@ ul {
 .contact-header .email-link:hover,
 .contact-header .email-link:focus {
     color: var(--background-hover-color-footer);
+    transition: var(--transition);
 }
 
 .contact-header .phone-section:hover,
 .contact-header .phone-section:focus {
     color: var(--background-hover-color-footer);
+    transition: var(--transition);
 }
 
 .global-header {
@@ -293,6 +301,7 @@ ul {
 .button-service:focus {
     cursor: pointer;    
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: var(--transition);
 }
 
 .request-button {
@@ -537,6 +546,7 @@ ul {
 .icon-div-cards .icon-cards:focus {
     background-color: var(--background-hover-color-footer);
     color: var(--social-icon-color-footer);
+    transition: var(--transition);
 }
 
 .title-image > h2 {
@@ -611,6 +621,7 @@ ul {
     border: 1px solid #2196F3;
     background-color: var(--background-color);
     color: var(--social-link-color-hover);
+    transition: var(--transition);
 }
 
 .icons-box {
@@ -691,6 +702,7 @@ ul {
 .icons-footer .icon-social-footer:focus {
     background-color: var(--background-hover-color-footer);
     color: var(--link-social-hover-color);
+    transition: var(--transition);
 }
 
 
@@ -767,6 +779,7 @@ ul {
 .email-footer:focus,
 .phone-footer:focus{
     color: var(--background-hover-color-footer);
+    transition: var(--transition);
 }
 
 /* modal section */
@@ -815,4 +828,5 @@ ul {
 .close-btn:focus,
 .close-btn:hover {
     background-color: #C4C4C4;
+    transition: var(--transition);
 }
