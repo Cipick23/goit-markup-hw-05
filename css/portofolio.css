@@ -19,6 +19,7 @@
     --background-hover-color-footer: #2196F3;
     --social-link-color-hover: #2196F3;
     --icon-color-header: #757575;
+    --transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -29,6 +30,10 @@ a:-webkit-any-link {
 
 ul {
     list-style-type: none;
+}
+
+a {
+    transition: color var(--transition);
 }
 
 .container {
@@ -130,6 +135,7 @@ ul {
 .portofolio-link:focus,
 .portofolio-link:hover {
     color: #2196F3;
+    transition: var(--transition);
 }
 
 /* email phone  */
@@ -181,11 +187,13 @@ ul {
 .contact-header .email-link:hover,
 .contact-header .email-link:focus {
     color: var(--background-hover-color-footer);
+    transition: var(--transition);
 }
 
 .contact-header .phone-section:hover,
 .contact-header .phone-section:focus {
     color: var(--background-hover-color-footer);
+    transition: var(--transition);
 }
 
 .global-header {
@@ -255,6 +263,7 @@ ul {
 
 .box-images > ul > li > div:hover .image-overlay {
     height: 100%;
+    transition: var(--transition);
 }
 
 .image-text {
@@ -309,6 +318,7 @@ ul {
 .box-images > ul > li > div:hover,
 .box-images > ul > li > div:focus {
     cursor: pointer;
+    transition: var(--transition);
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -317,6 +327,7 @@ ul {
     color: #ffffff;
     background: #2196F3;
     cursor: pointer;
+    transition: var(--transition);
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -450,6 +461,7 @@ ul {
 .icons-footer .icon-social-footer:focus {
     background-color: var(--background-hover-color-footer);
     color: var(--link-social-hover-color);
+    transition: var(--transition);
 }
 
 .footer-address > h2 {
@@ -525,4 +537,5 @@ ul {
 .email-footer:focus,
 .phone-footer:focus{
     color: var(--background-hover-color-footer);
+    transition: var(--transition);
 }
