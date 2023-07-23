@@ -103,8 +103,6 @@ ul {
 .studio {
     display: flex;
     flex-direction: column;
-
-    /* gap: 28px; */
     position: relative;
     height: 48px;
     width: 42px;
@@ -142,42 +140,45 @@ ul {
     fill: #2196F3;
 }
 
-.link-box {
+.link-box > a {
     position: absolute;
     color: #212121;
     line-height: 16px;
     width: 42px;
     height: 16px; 
     top: 0; left: 0; 
-    background-color:#fff; 
-    pointer-events: none;
+    background-color:#fff;
+    
 /*  Dezactivează interacțiunea cu acest div */ 
 }
 
-.icon-box {
+.icon-box > svg {
     position: absolute;
     top: 42px;
     width: 42px;
     height: 4px;
+    border-radius: 2px;
+    pointer-events: none;
+    visibility: hidden;
 /*  Dezactivează interacțiunea cu acest div  */
 }
 
-.icon-box > svg {
-    width: 42px;
-    height: 4px;
-    border-radius: 2px;
+.studio:hover::after,
+.studio:focus::after {
     fill: #2196F3;
+    visibility: visible;
+    background-image: url(/images/icons.svg#icon-hover);
 }
 
-.studio .link-box:hover,
-.link-box .icon-box:hover,
-.link-box > svg:focus,
+.studio .link-box > a:hover,
+.studio .link-box > a:focus,
 .content-section .contacts-link:hover,
 .content-section .contacts-link:focus,
 .content-section .portofolio-link:focus,
 .content-section .portofolio-link:hover {
     color: #2196F3;
     transition: var(--transition);
+    background-image: url(/images/icons.svg#icon-hover);
 }
 
 /* email phone  */
