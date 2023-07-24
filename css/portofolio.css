@@ -119,6 +119,7 @@ a {
     color: #212121;
     position: relative;
     text-decoration: none;
+    transition: var(--transition);
 }
 
 .box .active:hover::after,
@@ -136,7 +137,7 @@ a {
 .box .active:hover,
 .box .active:focus {
     color: #2196F3;
-    transition: var(--transition);
+    
 }
 
 /* email phone  */
@@ -176,6 +177,7 @@ a {
     width: 132px;
     height: 16px;
     flex-shrink: 0;  
+    transition: var(--transition);
 }
 
 .contact-header .email-link {
@@ -185,18 +187,19 @@ a {
     width: 161px;
     height: 16px;
     flex-shrink: 0;
+    transition: var(--transition);
 }
 
 .contact-header .email-link:hover,
 .contact-header .email-link:focus {
     color: var(--background-hover-color-footer);
-    transition: var(--transition);
+    
 }
 
 .contact-header .phone-section:hover,
 .contact-header .phone-section:focus {
     color: var(--background-hover-color-footer);
-    transition: var(--transition);
+    
 }
 
 .global-header {
@@ -306,6 +309,7 @@ a {
     flex-shrink: 0;
     border: 1px solid #EEE;
     background: #FFF;
+    transition: var(--transition);
 }
 
 .box-images > ul {
@@ -321,7 +325,7 @@ a {
 .box-images > ul > li > div:hover,
 .box-images > ul > li > div:focus {
     cursor: pointer;
-    transition: var(--transition);
+    
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -330,7 +334,7 @@ a {
     color: #ffffff;
     background: #2196F3;
     cursor: pointer;
-    transition: var(--transition);
+    
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -345,6 +349,7 @@ a {
     line-height: 26px;
     letter-spacing: 0.48px;
     flex-shrink: var(--flex-shrink);
+    transition: var(--transition);
 }
 
 .all-button {
@@ -452,6 +457,7 @@ a {
     border-radius: 22px;
     background-color: var(--background-color-footer);
     color: var(--social-icon-color-footer);
+    transition: var(--transition);
 }
 
 .icon-social-footer > svg {
@@ -464,7 +470,7 @@ a {
 .icons-footer .icon-social-footer:focus {
     background-color: var(--background-hover-color-footer);
     color: var(--link-social-hover-color);
-    transition: var(--transition);
+   
 }
 
 .footer-address > h2 {
@@ -504,6 +510,7 @@ a {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.42px;
+    transition: var(--transition);
     }
 
 .email-footer {
@@ -519,6 +526,7 @@ a {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.42px;
+    transition: var(--transition);
 }
 
 .address-location {
@@ -540,5 +548,5 @@ a {
 .email-footer:focus,
 .phone-footer:focus{
     color: var(--background-hover-color-footer);
-    transition: var(--transition);
+    
 }
