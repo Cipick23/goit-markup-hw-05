@@ -130,7 +130,7 @@ ul {
     width: 100%;
     height: 4px;
     background-color: #2196F3;
-  }
+}
 
 /* email phone  */
 
@@ -202,7 +202,7 @@ ul {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/team-image.jpg);
+    background-image: url(../images/team-image.jpg);
     background-color: #C4C4C4;
     background-size: 1572px 600px;
     margin-left: 28px;
