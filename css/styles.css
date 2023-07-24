@@ -760,7 +760,7 @@ ul {
 .modal-content:nth-child(1) {
     /*   transform: scale(1.25); */
     animation: animate125 2500ms;
-
+    opacity: 1;
 }
 
 .modal-content:nth-child(1)::before {
@@ -786,9 +786,7 @@ ul {
 }
 
 .modal-content {
-    /* padding: 16px; */
     background-color: #fff;
-    /* width: 50%; */
     position: relative;
     width: 527px;
     height: 581px;
