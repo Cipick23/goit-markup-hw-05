@@ -32,10 +32,6 @@ ul {
     list-style-type: none;
 }
 
-a {
-    transition: color var(--transition);
-}
-
 .container {
     width: 1600px;
     height: 1879px;
