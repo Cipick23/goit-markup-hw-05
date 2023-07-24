@@ -764,8 +764,8 @@ ul {
 }
 
 .modal-content:nth-child(1) {
-    /*   transform: scale(1.25); */
-    animation: animate125 2500ms;
+    transform: scale(0.75);
+    animation: animate075 2500ms;
     opacity: 1;
 }
 
@@ -777,17 +777,17 @@ ul {
     display: inline-block;
   }
 
-@keyframes animate125 {
+@keyframes animate075 {
     0% {
-      transform: scale(1);
+      transform: scale(0.75);
     }
   
     50% {
-      transform: scale(1.25);
+      transform: scale(0.9);
     }
   
     100% {
-      transform: scale(1);
+      transform: scale(1.0);
     }
 }
 
