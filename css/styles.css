@@ -121,7 +121,8 @@ ul {
     text-decoration: none;
 }
 
-.box .active::after {
+.box .active:hover::after,
+.box .active:focus::after {
     border-radius: 2px;
     content: "";
     position: absolute;
@@ -130,6 +131,12 @@ ul {
     width: 100%;
     height: 4px;
     background-color: #2196F3;
+}
+
+.box .active:hover,
+.box .active:focus {
+    color: #2196F3;
+    transition: var(--transition);
 }
 
 /* email phone  */
