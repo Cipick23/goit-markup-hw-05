@@ -580,8 +580,7 @@ ul {
     border-radius: 4px;
     border: 1px solid #2196F3;
     background-color: var(--background-color);
-    color: var(--social-link-color-hover);
-    
+    color: var(--social-link-color-hover); 
 }
 
 .icons-box {
